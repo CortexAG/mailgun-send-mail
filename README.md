@@ -5,7 +5,7 @@ A script that uses Mailgun to deliver emails.
 
 # Install the script
 ```
-npm install https://github.com/databus-systems/mailgun-send-mail
+npm install https://github.com/CortexAG/mailgun-send-mail.git
 ```
 
 # Prerequisites
@@ -21,7 +21,7 @@ Before running the script make sure you have created a `config.json` file with t
 # Run the script
 Example:
 ```
-mailgun-send-mail -p welcome -d '{"first_name": "first_name", "token": "token"}' -c ~/code/cortex-ag/mailgun-send-mail/config.json -s "Hello there" -t costin.bleotu@cortex-ag.com
+mailgun-send-mail -p register -d '{"first_name": "first_name", "token": "token"}' -c ~/code/cortex-ag/mailgun-send-mail/config.json -s "Hello there" -t costin.bleotu@cortex-ag.com
 ```
 
 # Script arguments
