@@ -1,0 +1,26 @@
+{
+  "name": "mailgun-send-mail",
+  "version": "1.0.1",
+  "description": "n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mailgun-send-mail": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.databus.systems:cortex-ag/mailgun-send-mail.git"
+  },
+  "keywords": [
+    "mailgun",
+    "email"
+  ],
+  "author": "Costin Bleotu",
+  "license": "Apache",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "mailgun-js": "^0.22.0"
+  }
+}
