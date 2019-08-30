@@ -5,7 +5,7 @@ A script that uses Mailgun to deliver emails.
 
 # Install the script
 ```
-npm install https://github.com/CortexAG/mailgun-send-mail.git
+npm install -g https://github.com/CortexAG/mailgun-send-mail.git
 ```
 
 # Prerequisites
